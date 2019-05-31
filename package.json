@@ -1,0 +1,26 @@
+{
+  "name": "language-generator-seed",
+  "version": "1.0.0",
+  "description": "Project for developing programming languages in JavaScript with PEGjs: test, watch and build commands included.",
+  "main": "src/language.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "node dev/build.js",
+    "watch": "node dev/watch.js",
+    "test": "node dev/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chokidar": "^3.0.0",
+    "execute-command-sync": "^1.0.2",
+    "import-fresh": "^3.0.0",
+    "just-a-timer": "^1.0.1",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1"
+  }
+}
