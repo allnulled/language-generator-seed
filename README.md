@@ -51,7 +51,7 @@ It comes also with:
 
 ## License
 
-Strictly `WTFL`. So, fuck off bitches, ain't got no job, ain't got no manner to get one, but I do not expect none to pay me a dollar: instead, you can take this project, change a comma, and say that it was yours. I do not give a shit. This planet is for suckers.
+Strictly [WTFPL](https://en.wikipedia.org/wiki/WTFPL). So, ain't got no job, ain't got no manner to get one, but I do not expect none to pay me a dollar: instead, you can take this project, change a comma, and say that it was yours. I do not give a shit. This planet is for suckers if you think it carefully.
 
 ## Contribute
 
