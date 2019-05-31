@@ -30,24 +30,24 @@ Once you change, create or delete any file under that folder, the project will a
 
 It comes with the commands:
 
-	- **test**: it uses `mocha` and `chai`. The default behaviour is to read the files under `test/samples/input`, use the generated parser to take the output, and compare that output with the contents of the same file, but in the folder of `test/samples/output`.
-	- **watch**: it listens for changes under the `src/grammars/*` files. Automatically, it will rebuild the parser and execute the tests.
-	- **build**: it will take all the files under `src/grammars/*` and concatenate them into 1 file, at `src/language.pegjs`. Then, it will use `pegjs` to build that parser.
+  - **test**: it uses `mocha` and `chai`. The default behaviour is to read the files under `test/samples/input`, use the generated parser to take the output, and compare that output with the contents of the same file, but in the folder of `test/samples/output`.
+  - **watch**: it listens for changes under the `src/grammars/*` files. Automatically, it will rebuild the parser and execute the tests.
+  - **build**: it will take all the files under `src/grammars/*` and concatenate them into 1 file, at `src/language.pegjs`. Then, it will use `pegjs` to build that parser.
 
 To run the commands, you only need to run:
 
-	- `$ npm run test`
+  - `$ npm run test`
 
-	- `$ npm run watch`
+  - `$ npm run watch`
 
-	- `$ npm run build`
+  - `$ npm run build`
 
 ## Files
 
 It comes also with:
 
-	- a minimal example of language: `hello world!`.
-	- a minimal test of that language: the files at `test/samples/input` and `test/samples/output`.
+  - a minimal example of language: `hello world!`.
+  - a minimal test of that language: the files at `test/samples/input` and `test/samples/output`.
 
 ## License
 
