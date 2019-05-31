@@ -1,4 +1,4 @@
 Language = sentences:Sentence*
 {
-	return utils.getPrescripts() + sentences.join("");
+	return utils.getPrescripts() + (sentences ? sentences.join("") : "");
 }
